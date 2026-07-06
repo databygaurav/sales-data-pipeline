@@ -1,0 +1,31 @@
+CustomerID,CustomerName,City,State
+1,Unknown,Bengaluru,Karnataka
+2,Priya,Bengaluru,Karnataka
+3,  Rahul  ,Unknown,Unknown
+4,Unknown,Delhi,Delhi
+5,John,Mumbai,Maharashtra
+6,Amit,Unknown,Unknown
+7,  Rahul  ,Bengaluru,Karnataka
+8,Priya,Unknown,Unknown
+9,Amit,Guwahati,Assam
+10,John,Unknown,Unknown
+11,Amit,Bengaluru,Karnataka
+12,Priya,Guwahati,Assam
+13,Sara,Unknown,Unknown
+14,Unknown,Unknown,Unknown
+15,Unknown,Guwahati,Assam
+16,Amit,Mumbai,Maharashtra
+17,John,Bengaluru,Karnataka
+18,  Rahul  ,Mumbai,Maharashtra
+19,Priya,Mumbai,Maharashtra
+20,John,Guwahati,Assam
+21,Sara,Bengaluru,Karnataka
+22,  Rahul  ,Guwahati,Assam
+23,Sara,Guwahati,Assam
+24,Sara,Mumbai,Maharashtra
+25,Unknown,Mumbai,Maharashtra
+26,Priya,Delhi,Delhi
+27,Amit,Delhi,Delhi
+28,  Rahul  ,Delhi,Delhi
+29,John,Delhi,Delhi
+30,Sara,Delhi,Delhi
