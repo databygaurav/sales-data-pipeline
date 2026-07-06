@@ -6,7 +6,7 @@ This project demonstrates a complete beginner-friendly Data Engineering pipeline
 
 The project includes:
 
-- Extracting sales data from CSV
+- Extracting sales data from a CSV file
 - Cleaning missing values using Python (Pandas)
 - Transforming the data into a Star Schema
 - Loading the data into MySQL
@@ -21,34 +21,41 @@ The project includes:
 - MySQL
 - SQL
 - Power BI
-- Git & GitHub
+- Git
+- GitHub
 
 ---
 
 ## Project Structure
 
-```
+```text
 sales-data-pipeline/
+│
+├── dashboard/
+│   └── SalesDashboard.pbix
 │
 ├── data/
 │   ├── raw/
+│   │   └── sales.csv
 │   ├── cleaned/
+│   │   └── sales_cleaned.csv
 │   └── warehouse/
-│   
+│       ├── DimCustomer.csv
+│       ├── DimDate.csv
+│       ├── DimProduct.csv
+│       └── FactSales.csv
+│
 ├── scripts/
 │   ├── extract.py
 │   ├── clean.py
 │   └── transform.py
 │
 ├── sql/
-│   ├── create_tables.sql
-│   └── load_data.sql
-│
-├── dashboard/
-│   └── SalesDashboard.pbix
+│   ├── 01_create_database.sql
+│   ├── 02_create_tables.sql
+│   └── 03_sample_queries.sql
 │
 ├── README.md
-├── requirements.txt
 └── .gitignore
 ```
 
@@ -56,7 +63,7 @@ sales-data-pipeline/
 
 ## Data Warehouse
 
-Star Schema:
+This project uses a **Star Schema** consisting of:
 
 - FactSales
 - DimCustomer
@@ -67,7 +74,7 @@ Star Schema:
 
 ## Power BI Dashboard
 
-Dashboard includes:
+The dashboard includes:
 
 - Total Revenue KPI
 - Total Orders KPI
@@ -89,13 +96,14 @@ Dashboard includes:
 - ETL Pipeline
 - Data Modeling
 - SQL Joins
-- Star Schema
+- Star Schema Design
 - DAX Measures
+- Power BI Dashboard Development
 - Data Visualization
-- Dashboard Design
+- Git & GitHub
 
 ---
 
 ## Author
 
-Gaurav Dutta
+**Gaurav Dutta**
